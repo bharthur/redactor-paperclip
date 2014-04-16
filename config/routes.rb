@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
 
-	resources :redactorAssets
-
-	match "redactorAssets/create", :method => "post"
+	resources :redactor_assets
+	match "/redactor_assets/create" => "redactor_assets#create", via: [:get, :post]
 
 end

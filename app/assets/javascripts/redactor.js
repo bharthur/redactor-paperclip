@@ -549,8 +549,8 @@ var RLANG = {
 			// set paperclip paths
 			if( this.opts.imageUpload == "paperclip" )
 			{
-				this.opts.imageUpload  = "/redactorAssets/create" 
-				this.opts.imageGetJson = "/redactorAssets"
+				this.opts.imageUpload  = "/redactor_assets/create"
+				this.opts.imageGetJson = "/redactor_assets"
 			}
 
 			// get dimensions
